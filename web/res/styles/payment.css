@@ -1,0 +1,121 @@
+@import url('header.css');
+@import url('reclam.css');
+@import url('footer.css');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font: bold 12px sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    background: black;
+}
+
+#wrapper-container
+{
+    background: url('../img/dota_2_storm_spirit.jpg') no-repeat fixed center center;
+    background-size: 100% 100%;
+}
+
+#wrapper
+{
+    z-index: 1;
+
+    min-width: 850px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 7px 7px 0 7px;
+}
+
+
+
+.main-container
+{
+    margin-top: 12px;
+    padding: 0 5px;
+}
+
+.main-container .content-conteiner
+{
+    margin-left: 230px;
+    padding: 10px;
+    border-radius: 2px;
+    background: rgba(194,194,194, .9);
+    /*height: 700px;*/
+}
+
+.main-container .content-conteiner .pay-container{
+    margin-top: 30px;
+    padding: 10px;
+    /*height: 250px;*/
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container .content-conteiner .pay-container .pay-item{
+    background: #C2C2C2;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-container .content-conteiner .pay-container .pay-item:last-child{
+    margin-right: 0px;
+}
+
+
+
+.main-container .content-conteiner .pay-container .pay-item img{
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+
+.main-container .content-conteiner .pay-container .pay-item a input{
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    font: bold 16px Arial;
+}
+
+.main-container .content-conteiner .pay-container .pay-item a input:hover{
+    background: #5A5A5A;
+    color: #fff;
+    border: none;
+}
+
+.main-container .content-conteiner .pay-container .pay-item a input:visit{
+    border: none;
+}
+
+.main-container .content-conteiner .unLogin-container{
+    background: #C2C2C2;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.main-container .content-conteiner .unLogin-container p{
+    padding-top: 40px;
+    font: bold 14px Arial;
+    text-align: center;
+}
+
+
+.clear
+{
+    clear: both;
+}

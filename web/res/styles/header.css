@@ -1,0 +1,212 @@
+.header-container
+{
+    border-radius: 3px;
+    background: rgba(194,194,194, 0.9);
+}
+
+.header-container .views
+{
+    text-align: center;
+}
+
+.header-container .header-top-container
+{
+    display: flex;
+
+    padding: 15px 10px;
+
+    justify-content: space-between;
+}
+
+.header-container .header-top-container .logo
+{
+    margin: auto;
+}
+
+.header-container .header-top-container .logo img
+{
+    width: 200px;
+}
+
+.header-container .header-top-container .autorization-container
+{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #626270;
+}
+
+.header-container .header-top-container .autorization-container .autorization-data-container .login,
+.header-container .header-top-container .autorization-container .password
+{
+    display: flex;
+
+    padding: 5px;
+
+    justify-content: space-between;
+}
+
+.header-container .header-top-container .autorization-container .autorization-data-container input
+{
+    font-weight: bold;
+}
+
+.header-container .header-top-container .autorization-container .autorization-data-container .autorization-text p
+{
+    margin: 3px 10px 0 0 ;
+}
+
+
+.header-container .header-top-container .autorization-container .buttons-container
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.header-container .header-top-container .autorization-container .buttons-container input
+{
+    margin-left: 10px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 1px;
+}
+
+.header-container .header-top-container .autorization-container .incorect{
+    position: relative;
+}
+
+.header-container .header-top-container .autorization-container .incorect .incorect-data{
+    position: absolute;
+    background-color: red;
+    border-radius: 4px;
+    text-align: center;
+    top: 5px;
+}
+
+
+.header-container .header-top-container .user-container{
+    background: #A2A4AC;
+    width: 280px;
+    border: 2px solid #55575F;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font: bold 14px Arial;
+}
+
+.header-container .header-top-container .user-container .info-user{
+    display: flex;
+}
+
+.header-container .header-top-container .user-container .info-user .img{
+    margin-left: 20px;
+}
+
+.header-container .header-top-container .user-container .info-user .img img{
+    width: 60px;
+}
+
+.header-container .header-top-container .user-container .info-user .meta-user{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.header-container .header-top-container .user-container .info-user p{
+    margin:0 auto 10px auto;
+}
+
+.header-container .header-top-container .user-container .info-user p.login{
+    color: #4A4A4A;
+}
+
+.header-container .header-top-container .user-container .info-user p.balance{
+    color: green;
+}
+
+.header-container .header-top-container .user-container .button{
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+.header-container .header-top-container .user-container .button form input{
+    font: bold 12px Arial;
+    padding: 5px 10px;
+}
+
+.header-container .header-top-container .user-container .button button{
+    margin-right: 5px;
+    font: bold 12px Arial;
+    padding: 5px 10px;
+}
+
+
+
+
+.header-container .header-bottom-container
+{
+    height: 40px;
+    padding: 5px 3px;
+}
+
+.header-container .header-bottom-container .header-bottom-menu
+{
+    position: relative;
+}
+
+.header-container .header-bottom-container .header-bottom-menu nav
+{
+    position: absolute;
+
+    width: 100%;
+
+    background: black;
+}
+
+.header-container .header-bottom-container .header-bottom-menu nav ul
+{
+    display: flex;
+
+    list-style-type: none;
+
+    justify-content: space-between;
+}
+
+.header-container .header-bottom-container .header-bottom-menu nav ul li
+{
+    display: flex;
+
+    width: 100%;
+
+    text-align: center;
+
+    border-right: 2px solid white;
+}
+.header-container .header-bottom-container .header-bottom-menu nav ul li:last-child
+{
+    border-right: none;
+}
+
+.header-container .header-bottom-container .header-bottom-menu nav ul li a
+{
+    font: bold 18px Arial;
+
+    width: 100%;
+    height: 30px;
+    padding: 10px 10px 0 10px;
+    padding-top: 10px;
+
+    transition: .3s ease;
+    text-decoration: none;
+
+    color: white;
+}
+.header-container .header-bottom-container .header-bottom-menu nav ul li a:hover
+{
+    color: black;
+    background-color: #cacaca;
+}

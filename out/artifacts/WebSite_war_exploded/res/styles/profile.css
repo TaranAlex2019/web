@@ -1,0 +1,224 @@
+@import url('header.css');
+@import url('reclam.css');
+@import url('footer.css');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font: bold 12px sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    background: black;
+}
+
+#wrapper-container
+{
+    background: url('../img/dota_2_storm_spirit.jpg') no-repeat fixed center center;
+    background-size: 100% 100%;
+}
+
+#wrapper
+{
+    z-index: 1;
+
+    min-width: 850px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 7px 7px 0 7px;
+}
+
+
+
+.main-container
+{
+    margin-top: 12px;
+    padding: 0 5px;
+}
+
+.main-container .content-conteiner
+{
+    margin-left: 230px;
+    padding: 0;
+    padding: 10px;
+
+    border-radius: 2px;
+    background: rgba(194,194,194, .9);
+}
+
+
+.main-container .content-conteiner .menu-items
+{
+    display: flex;
+
+    cursor: pointer;
+}
+
+.main-container .content-conteiner .menu-items .menu-item
+{
+    border: 1px solid black;
+    border-right: none;
+    border-bottom: none;
+}
+
+.main-container .content-conteiner .menu-items .menu-item:last-child
+{
+    border-right: 1px solid black;
+}
+
+.main-container .content-conteiner .menu-items .menu-item p
+{
+    z-index: 5;
+
+    padding: 5px;
+
+    transition: .5s ease;
+
+    background: #c2c2c2;
+}
+
+.main-container .content-conteiner .menu-items .menu-item p:hover
+{
+    opacity: .6;
+    color: white;
+    background: #131313;
+}
+
+.main-container .content-conteiner .menu-items .menu-item p:active
+{
+    background: #828282;
+}
+
+.main-container .content-conteiner .main-content
+{
+    z-index: 1;
+
+    border: 1px solid black;
+
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.main-container .content-conteiner .image-container
+{
+    display: flex;
+
+    width: 50%;
+    margin: 20px 20px 50px 20px;
+
+    justify-content: space-between;
+}
+
+.main-container .content-conteiner .image-container .image
+{
+    margin-left: 5px;
+}
+
+.main-container .content-conteiner .image-container .image img{
+    width: 120px;
+}
+
+.main-container .content-conteiner .image-container .change-image
+{
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-end;
+}
+
+.main-container .content-conteiner .image-container .change-image #load
+{
+    margin-left: -20px;
+}
+
+.main-container .content-conteiner .user-info
+{
+    width: 50%;
+    padding: 15px;
+}
+
+
+.main-container .content-conteiner .user-info h2
+{
+    margin-bottom: 15px;
+}
+
+.main-container .content-conteiner .user-info .inf
+{
+    display: flex;
+
+    padding: 10px;
+
+    justify-content: space-between;
+}
+
+.main-container .content-conteiner .user-info .inf p
+{
+    font: 16px Arial;
+    font-weight: 600;
+}
+
+.main-container .content-conteiner .user-info .inf .data
+{
+    display: flex;
+}
+
+.main-container .content-conteiner .user-info .inf .data input
+{
+    position: relative;
+    top: -5px;
+
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
+
+.main-container .content-conteiner .user-info .password input
+{
+    padding: 5px;
+}
+
+.main-container .content-conteiner .history-content
+{
+	display: none;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.main-container .content-conteiner .history-content table
+{
+    margin: 20px auto;
+
+    border-collapse: collapse;
+
+    text-align: center;
+
+    background: #c2c2c2;
+}
+
+.main-container .content-conteiner .history-content table,
+th,
+td
+{
+    padding: 8px;
+
+    border: 1px solid black;
+}
+
+
+
+
+.clear
+{
+    clear: both;
+}

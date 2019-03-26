@@ -1,0 +1,17 @@
+.main-container .reklalm-container{
+			border-radius: 3px;
+			padding: 5px;
+			background: rgba(194,194,194, 0.9);
+			width: 200px;
+			float: left;
+		}
+
+			.main-container .reklalm-container img{
+				margin-bottom: 40px;
+				cursor: pointer;
+				width: 200px;
+			}
+
+			.main-container .reklalm-container img:last-child{
+				margin-bottom: 0;
+			}

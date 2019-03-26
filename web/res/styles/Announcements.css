@@ -1,0 +1,106 @@
+@import url("header.css");
+@import url("reclam.css");
+@import url("footer.css");
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font: bold 12px sans-serif;
+	background: black;
+}
+
+	#wrapper-container{
+		background: url('../img/dota_2_storm_spirit.jpg') no-repeat fixed center center;
+		background-size: 100% 100%;
+		height: 100%;
+	}
+
+		#wrapper{
+			padding: 7px 7px 0 7px;
+			min-width: 850px;
+			max-width: 1200px;
+			margin: auto; 
+			z-index: 1;
+		}
+
+	
+
+	.main-container{
+		padding: 0 5px;
+		margin-top: 12px;
+	}
+
+		.main-container .content-conteiner {
+			padding: 0px;
+			margin: 0px;
+
+		}
+
+			.main-container .content-conteiner .news-conteiner .articles-conteiner .article{
+				border-radius: 3px;
+				background: rgba(194,194,194, 0.9);
+				padding: 10px;
+				margin-bottom: 10px; 
+			}
+
+			.main-container .content-conteiner .news-conteiner .articles-conteiner .article form input{
+				font: bold 14px Arial;
+				padding: 5px; 
+			}
+
+			.main-container .content-conteiner .news-conteiner .articles-conteiner .article:last-child{
+				margin-bottom: 0; 
+			}
+
+			.main-container .content-conteiner .news-conteiner .articles-conteiner .article .image{
+				width: 80%;
+				margin: 0 auto 10px auto;
+			}
+
+				.main-container .content-conteiner .news-conteiner .articles-conteiner .article .image img{
+					cursor: pointer;
+					width: 100%;
+					transition: 0.4s ease;
+				}
+				.main-container .content-conteiner .news-conteiner .articles-conteiner .article .image img:hover{
+					opacity: 0.8;
+				}
+
+				.main-container .content-conteiner .news-conteiner .articles-conteiner .article .title{
+					margin-bottom: 2px;
+				}
+
+					.main-container .content-conteiner .news-conteiner .articles-conteiner .article .title h2 a{
+						text-decoration: none;
+						color: black;
+						transition: 0.2s ease;
+					}
+					.main-container .content-conteiner .news-conteiner .articles-conteiner .article .title h2 a:hover{
+						color: #2A72E4;
+					}
+
+			.main-container .content-conteiner .news-conteiner .articles-conteiner .article .meta{
+				text-align: left;
+				margin-bottom: 10px;
+			}
+
+				.main-container .content-conteiner .news-conteiner .articles-conteiner .article .meta p{
+					display: inline-block;
+					margin: 0 5px 5px 0;
+					color: #565751;
+				}
+
+			.main-container .content-conteiner .news-conteiner .articles-conteiner .article .text{
+				text-align: justify;
+				margin-bottom: 10px;
+			}
+
+
+	.clear{
+		clear: both;
+	}

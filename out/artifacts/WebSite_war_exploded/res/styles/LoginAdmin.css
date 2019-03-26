@@ -1,0 +1,33 @@
+body{
+	background: url(../img/dota_2_storm_spirit.jpg) no-repeat fixed center center;
+	background-size: 100% 100%;
+	font: bold 22px Arial;
+	height: 600px;
+}
+
+.wrapper{
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	height: 100%;
+}
+
+.wrapper .Autorization{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5px;
+	background: rgba(152,152,152,0.7);
+	height: 100%;
+	text-align: center;
+}
+
+.wrapper .Autorization form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapper .Autorization form input{
+	margin-bottom: 10px;
+}

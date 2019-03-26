@@ -1,0 +1,44 @@
+body{
+	background: url(../img/dota_2_storm_spirit.jpg) no-repeat fixed center center;
+	background-size: 100% 100%;
+	font: bold 22px Arial;
+	height: 600px;
+}
+
+.wrapper{
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	height: 100%;
+}
+
+.wrapper .tools{
+	padding: 5px;
+	background: rgba(152,152,152,0.7);
+	height: 100%;
+	text-align: center;
+}
+
+.wrapper .tools ul{
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.wrapper .tools ul li{
+	margin-bottom: 25px;
+}
+
+.wrapper .tools ul li a{
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.3s ease;
+	background: #000;
+}
+
+.wrapper .tools ul li a:hover{
+	background: #fff;
+	color: #000;
+}

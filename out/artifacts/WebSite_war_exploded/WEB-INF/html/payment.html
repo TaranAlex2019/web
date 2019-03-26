@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../res/styles/payment.css" type="text/css">
+    <title>DDbust - boost accounts and learn Dota 2</title>
+</head>
+<body onload="Height();">
+    <div id="wrapper-container">
+        <div id="wrapper">
+            <header class="header-container">
+                <div class="header-top-container">
+                    <div class="logo">
+                        <img src="../../res/img/logo.png" alt="Logo">
+                    </div>
+                    <div class="user-container">
+                        <div class="info-user">
+                            <div class="img">
+                                <img src="../../uploads/no_image.png" alt="Image_user">
+                            </div>
+                            <div class="meta-user">
+                                <p class="login">${Login}</p>
+                                <p class="balance">Ваш баланс: ${Balance}p</p>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="#"><button>Профиль</button></a>
+                            <form action="SessionOut" method="post">
+                                <input type="submit" value="Выйти из аккаунта">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom-container">
+                    <div class="header-bottom-menu">
+                        <nav role="navigation">
+                            <ul>
+                                <li><a href="/index.jsp">Главная</a></li>
+                                <li><a href="/uslugi">Услуги</a></li>
+                                <li><a href="https://google.com" target="_blank">Оплата</a></li>
+                                <li><a href="/otzivi">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="main-container">
+                <div class="reklalm-container" id="reklam">
+                    <img src="../../res/img/Screenshot_1.png" alt="Logo">
+                    <img src="../../res/img/Screenshot_1.png" alt="Logo">
+                    <img src="../../res/img/Screenshot_1.png" alt="Logo">
+                </div>
+                <div class="content-conteiner" id="content">
+                    <div class="pay-container">
+                       <div class="pay-item">
+                            <img src="../../res/img/yandex-money.png" alt="">
+                            <a href="/yandex-money"><input type="text" value="Оплатить"></a>
+                        </div>
+                        <div class="pay-item">
+                            <img src="../../res/img/qiwi_logo_rgb_small.png" alt="">
+                            <a href="/qiwi"><input type="text" value="Оплатить"></a>
+                        </div>
+                        <div class="pay-item">
+                            <img src="../../res/img/yandex-money.png" alt="">
+                            <a href="https://www.youtube.com/"><input type="text" value="Оплатить"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+           <div class="footer-container">
+                <div class="footer-top">
+                    <div class="pay">
+                        <ul>
+                            <li><img src="../../res/img/visa-mastercard.png" alt=""></li>
+                            <li><img src="../../res/img/qiwi_logo_rgb_small.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contacts">
+                        <ul class="support">
+                            <li><span>Поддержка:</span></li>
+                            <li class="contact gmail"><a href="#"><img src="../../res/img/gmail.png" alt="Gmail_logo"></a></li>
+                            <li class="contact phone"><a href="#"><img src="../../res/img/telegram.png" alt="Gmail_logo"></a></li>
+                            <li class="contact vk"><a href="#"><img src="../../res/img/vk.png" alt="Gmail_logo"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerCopy">
+                    <address>All rights reserved &copy;   2019-2020</address>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../res/js/Height.js"></script>
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    </body>
+</html>

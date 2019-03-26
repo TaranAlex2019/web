@@ -1,0 +1,72 @@
+@import url("header.css");
+@import url("reclam.css");
+@import url("footer.css");
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font: bold 12px sans-serif;
+	background-color: black;
+}
+
+
+
+		#wrapper{
+			padding: 7px 7px 0 7px;
+			min-width: 1100px;
+			max-width: 1200px;
+			margin: auto; 
+			z-index: 1;
+			background: url('../img/dota_2_storm_spirit.jpg') no-repeat fixed center center;
+			background-size: 100% 100%;
+		}
+
+	.main-container{
+		padding: 0 5px;
+		margin-top: 12px;
+	}
+
+
+		.main-container .content-conteiner{
+			display: flex;
+			align-items: flex-end;
+			background: rgba(194,194,194, 0.9);
+			padding: 15px;
+			margin-left: 230px;
+		}
+
+		.main-container .content-conteiner .usluga{
+			text-align: center;
+			width: 290px;
+			margin: 0 auto 50px auto;
+		}
+
+		.main-container .content-conteiner .usluga img{
+			width: 100%;
+		}
+		.main-container .content-conteiner .usluga .text p{
+			font: 18px Arial;
+			margin-top: 5px;
+		}
+
+		.main-container .content-conteiner .usluga .text p a{
+			padding: 40px 10px;
+			text-decoration: none;
+			color: black;
+		}
+
+	.clear{
+		clear: both;
+	}
+
+	@media screen and (max-width: 1000px){
+		#wrapper{
+			background-color: black;
+			background-image: none;
+		}
+	}

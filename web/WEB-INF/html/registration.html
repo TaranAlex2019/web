@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../../../../../Desktop/Projects/ddbust/res/styles/registration.css" type="text/css">
+	<title>DDbust - boost accounts and learn Dota 2</title>
+</head>
+<body onload="Height(); hideInfo(); isActiveButton();">
+	<div id="wrapper-container">
+		<div id="wrapper">
+			<header class="header-container">
+				<div class="header-top-container">
+					<div class="logo">
+						<img src="../../../../../Desktop/Projects/ddbust/res/img/logo.png" alt="Logo">
+					</div>
+					<div class="autorization-container">
+						<div class="autorization-data-container">
+							<div class="login">
+								<div class="autorization-text">
+									<p>Login:</p> 
+								</div>
+								<div class="login-input">
+									<input type="text" placeholder="Your login">
+								</div>
+							</div>
+							<div class="password">
+								<div class="autorization-text">
+									<p>Password: </p>
+								</div>
+								<div class="password-input">
+									<input type="password" placeholder="Your password">
+								</div>
+							</div>
+						</div>
+						<div class="buttons-container">
+							<input type="submit" value="Log in"> <a href="#"><input type="button" value="Registration"></a>
+						</div>
+					</div>
+				</div>
+				<div class="header-bottom-container">
+					<div class="header-bottom-menu">
+						<nav role="navigation">
+							<ul>
+								<li><a href="../../../../../Desktop/Projects/ddbust/index.html">Главная</a></li>
+								<li><a href="uslugi.html">Услуги</a></li>
+								<li><a href="https://google.com" target="_blank">Оплата</a></li>
+								<li><a href="otzivi.html">Отзывы</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+
+			<div class="main-container">
+				<div class="reklalm-container" id="reklam">
+					<div class="reklam"><img src="../../../../../Desktop/Projects/ddbust/res/img/Screenshot_1.png" alt="Logo"></div>
+					<div class="reklam"><img src="../../../../../Desktop/Projects/ddbust/res/img/Screenshot_1.png" alt="Logo"></div>
+					<div class="reklam"><img src="../../../../../Desktop/Projects/ddbust/res/img/Screenshot_1.png" alt="Logo"></div>
+					
+				</div>
+				<div class="content-conteiner" id="content">
+					<form action="">
+						<div class="registration-container">
+							<div class="data-container">
+								<div class="data">
+									<div class="text">
+										<p>Name:</p>
+									</div>
+									<div class="input">
+										<input name="name" type="text" placeholder="Your Name">
+									</div>
+									<div class="infoAboutField">
+										<p onclick="showInfo('nameInfo');">?</p>
+										<div class="info">
+										</div>
+									</div>
+								</div>
+								<pre class="infoP" id="nameInfo">Введите свое имя. Русские символы. Цифры и специальные символы 
+не допускаются!</pre>
+							</div>
+							
+							<div class="data-container">
+								<div class="data">
+									<div class="text">
+										<p>Surname:</p>
+									</div>
+									<div class="input">
+										<input name="surname" type="text" placeholder="Your Surname">
+									</div>
+									<div class="infoAboutField">
+										<p onclick="showInfo('surnameInfo');">?</p>
+										<div class="info">
+										</div>
+									</div>
+								</div>
+								<pre class="infoP"  id="surnameInfo">Введите свою фамилию. Русские символы. Цифры и специальные 
+символы не допускаются!</pre>
+							</div>
+							
+							<div class="data-container">
+								<div class="data">
+									<div class="text">
+										<p>Login:</p>
+									</div>
+									<div class="input">
+										<input name="login" type="text" placeholder="Your Login">
+									</div>
+									<div class="infoAboutField">
+										<p onclick="showInfo('loginInfo');">?</p>
+										<div class="info">
+										</div>
+									</div>
+								</div>
+								<pre class="infoP"  id="loginInfo">Придумайте себе логин. Только латинские символы и цифры.
+Такие специальные символы как : ; = + * $ % & ` | , не допускаются!</pre>
+							</div>
+							
+							<div class="data-container">
+								<div class="data">
+									<div class="text">
+										<p>Password:</p>
+									</div>
+									<div class="input">
+										<input name="password" type="password" placeholder="Your Password">
+									</div>
+									<div class="infoAboutField">
+										<p onclick="showInfo('passwordInfo');">?</p>
+										<div class="info">
+										</div>
+									</div>
+								</div>
+								<pre class="infoP"  id="passwordInfo">Придумайте себе пароль. Только латинские символы и цифры.
+Такие специальные символы как : ; = + * $ % & ` | , не допускаются!
+Минимум 8 символов.</pre>
+							</div>
+							
+
+							<div class="data-container">
+								<div class="data">
+									<div class="text">
+										<p>Try password:</p>
+									</div>
+									<div class="input">
+										<input name="tryPassword" type="password" placeholder="Try your password">
+									</div>
+									<div class="infoAboutField">
+										<p onclick="showInfo('trypasswordInfo');">?</p>
+										<div class="info">
+										</div>
+									</div>
+								</div>
+								<pre class="infoP"  id="trypasswordInfo">Повторите Ваш пароль. Пароли дожны полностью совпадать!</pre>
+							</div>
+
+							
+							<div class="data-container" id="lastData-container">
+								<div class="data">
+									<div class="text">
+										<p>Mail:</p>
+									</div>
+									<div class="input">
+										<input name="mail" type="text" placeholder="Your mail">
+									</div>
+									<div class="infoAboutField">
+										<p onclick="showInfo('mailInfo');">?</p>
+										<div class="info">
+										</div>
+									</div>
+								</div>
+								<pre class="infoP"  id="mailInfo">Укажите Ваш email для связи с вами и активации аккаунта. Формат ввода:
+логин-на-почте@Ваша-почта! Пример: user@gmail.com</pre>	
+							</div>
+
+							<div class="soglashenie">
+								<label><input type="checkbox" value="agree" name="checkS" id="check">
+								<pre>Внимательно прочтите <a href="../../License.html" target="_blank">соглашение</a> и согласитесь
+с ним для регистрации</pre></label>
+							</div>
+									
+							<div class="inputs">
+								<input type="submit" value="Зарегистрироваться" id="reg"> 
+								<input type="reset" value="Очистить">
+							</div>		
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="footer-container">
+				<div class="footer-top">
+					<div class="pay">
+						<ul>
+							<li><img src="../../../../../Desktop/Projects/ddbust/res/img/visa-mastercard.png" alt=""></li>
+							<li><img src="../../../../../Desktop/Projects/ddbust/res/img/qiwi_logo_rgb_small.png" alt=""></li>
+						</ul>
+					</div>
+					<div class="footer-contacts">
+						<ul class="support">
+							<li><span>Поддержка:</span></li>
+							<li class="contact gmail"><a href="#"><img src="../../../../../Desktop/Projects/ddbust/res/img/gmail.png" alt="Gmail_logo"></a></li>
+							<li class="contact phone"><a href="#"><img src="../../../../../Desktop/Projects/ddbust/res/img/telegram.png" alt="Gmail_logo"></a></li>
+							<li class="contact vk"><a href="#"><img src="../../../../../Desktop/Projects/ddbust/res/img/vk.png" alt="Gmail_logo"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footerCopy">
+					<address>All rights reserved &copy;   2019-2020</address>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="../js/Height.js"></script>
+	<script src="../js/infoAboutField.js"></script>
+	<script src="../js/isActive.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

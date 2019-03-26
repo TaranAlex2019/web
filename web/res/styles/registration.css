@@ -1,0 +1,127 @@
+@import url("header.css");
+@import url("reclam.css");
+@import url("footer.css");
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font: bold 12px sans-serif;
+	background: black;
+}
+
+	#wrapper-container{
+		background: url('../img/dota_2_storm_spirit.jpg') no-repeat fixed center center;
+		background-size: 100% 100%;
+	}
+
+		#wrapper{
+			padding: 7px 7px 0 7px;
+			min-width: 1000px;
+			max-width: 1200px;
+			margin: auto; 
+			z-index: 1;
+		}
+
+	.main-container{
+		padding: 0 5px;
+		margin-top: 12px;
+	}
+
+		
+
+		.main-container .content-conteiner{
+			background: rgba(194,194,194, 0.9);
+			padding: 15px;
+			margin-left: 230px; 
+		}
+
+			.main-container .content-conteiner .registration-container{
+				width: 100%;
+				margin: auto;
+			}
+
+			.main-container .content-conteiner .registration-container .data-container{
+				width: 50%;
+				margin: 0 auto 40px auto;
+			}
+
+			.main-container .content-conteiner .registration-container .data-container#lastData-container{
+				margin: 0 auto 20px auto;
+			}
+
+			.main-container .content-conteiner .registration-container .data{
+				display: flex;
+			}
+
+			.main-container .content-conteiner .registration-container .data .text{
+				width: 150px;
+			}
+
+			.main-container .content-conteiner .registration-container .text p{
+				font: bold 14px Arial;
+			}
+
+			.main-container .content-conteiner .registration-container .infoAboutField{
+				margin-left: 10px; 
+				width: 10px;
+			}
+
+			.main-container .content-conteiner .registration-container .infoAboutField .info{
+				padding: 5px;
+				position: relative;
+				margin-left: 15px;
+				width: 400px;
+			}
+
+			.main-container .content-conteiner .registration-container .infoAboutField p{
+				position: relative;
+				top: 2px;
+				cursor: pointer;
+				color: black;
+			}
+
+			.main-container .content-conteiner .registration-container  pre.infoP{
+				position: absolute;
+				padding: 10px;
+				background: #7B7B7B;
+				border-radius: 10px; 
+				display: none;
+				color: #484848;
+				margin-left: 15px;
+				font: bold 12px Arial;
+			}
+
+			.main-container .content-conteiner .registration-container .inputs{
+				width: 300px;
+				margin: auto;
+			}
+
+			.main-container .content-conteiner .registration-container .inputs input{
+				font: bold 12px Arial;
+				padding: 5px;
+			}
+
+			.main-container .content-conteiner .registration-container .soglashenie{
+				width: 400px;
+				margin: 0 auto 10px auto;
+				text-align: center;
+			}
+
+			.main-container .content-conteiner .registration-container .soglashenie label{
+				display: flex;
+				cursor: pointer;
+			}
+
+
+			.main-container .content-conteiner .registration-container .soglashenie input{
+				margin-right: 5px; 
+			}
+
+	.clear{
+		clear: both;
+	}

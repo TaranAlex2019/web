@@ -1,0 +1,281 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../res/styles/profile.css" type="text/css">
+    <title>DDbust - boost accounts and learn Dota 2</title>
+</head>
+<body onload="Height();">
+    <div id="wrapper-container">
+        <div id="wrapper">
+            <header class="header-container">
+                <div class="header-top-container">
+                    <div class="logo">
+                        <img src="../../res/img/logo.png" alt="Logo">
+                    </div>
+                    <div class="user-container">
+                        <div class="info-user">
+                            <div class="img">
+                                <img src="../../uploads/no_image.png" alt="Image_user">
+                            </div>
+                            <div class="meta-user">
+                                <p class="login">${Login}</p>
+                                <p class="balance">Ваш баланс: ${Balance}p</p>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="#"><button>Профиль</button></a>
+                            <form action="SessionOut" method="post">
+                                <input type="submit" value="Выйти из аккаунта">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom-container">
+                    <div class="header-bottom-menu">
+                        <nav role="navigation">
+                            <ul>
+                                <li><a href="/index.jsp">Главная</a></li>
+                                <li><a href="/uslugi">Услуги</a></li>
+                                <li><a href="https://google.com" target="_blank">Оплата</a></li>
+                                <li><a href="/otzivi">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="main-container">
+                <div class="reklalm-container" id="reklam">
+                    <img src="../../res/img/Screenshot_1.png" alt="Logo">
+                    <img src="../../res/img/Screenshot_1.png" alt="Logo">
+                    <img src="../../res/img/Screenshot_1.png" alt="Logo">
+                </div>
+                <div class="content-conteiner" id="content">
+                    <div class="menu-items">
+                        <div class="menu-item" id="info">
+                            <p>Информация</p>
+                        </div>
+                        <div class="menu-item" id="oper">
+                            <p>Операции</p>
+                        </div>
+                    </div>
+                    <div class="main-content" id="main-info">
+                        <div class="image-container">
+                            <div class="image">
+                                <img src="../../uploads/no_image.png" alt="User_img">
+                            </div>
+                            <div class="change-image">
+                                <input type="file">
+                                <input id="load" type="submit" value="Загрузить">
+                            </div>
+                        </div>
+                        <div class="user-info">
+                            <h2>Информация о пользователе</h2>
+                            <hr>
+                            <div class="Name inf">
+                                <p>Name</p>
+                                <div class="data">
+                                    <p>${Name}</p>
+                                    <input type="submit" value="Изменить">
+                                </div>
+                            </div>
+                            <div class="SurName inf">
+                                <p>SurName</p>
+                                <div class="data">
+                                    <p>${SurName}</p>
+                                    <input type="submit" value="Изменить">
+                                </div>
+                            </div>
+                            <div class="login inf">
+                                <p>Login</p>
+                                <div class="data">
+                                    <p>${Login}</p>
+                                    <input type="submit" value="Изменить">
+                                </div>
+                            </div>
+                            <div class="mail inf">
+                                <p>Mail</p>
+                                <div class="data">
+                                    <p>${mail}</p>
+                                    <input type="submit" value="Изменить">
+                                </div>
+                            </div>
+                            <div class="password inf">
+                                <p>Пароль</p>
+                                <input type="submit" value="Изменить пароль">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-content" id="main-history">
+                        <table>
+                            <tr>
+                                <th>Дата</th>
+                                <th>Описание операции</th>
+                                <th>Результат</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    25.02.2019 16:57
+                                </td>
+                                <td>
+                                    Пополнение баланса на сумму 100р
+                                </td>
+                                <td>
+                                    Успешно
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+           <div class="footer-container">
+                <div class="footer-top">
+                    <div class="pay">
+                        <ul>
+                            <li><img src="../../res/img/visa-mastercard.png" alt=""></li>
+                            <li><img src="../../res/img/qiwi_logo_rgb_small.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contacts">
+                        <ul class="support">
+                            <li><span>Поддержка:</span></li>
+                            <li class="contact gmail"><a href="#"><img src="../../res/img/gmail.png" alt="Gmail_logo"></a></li>
+                            <li class="contact phone"><a href="#"><img src="../../res/img/telegram.png" alt="Gmail_logo"></a></li>
+                            <li class="contact vk"><a href="#"><img src="../../res/img/vk.png" alt="Gmail_logo"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerCopy">
+                    <address>All rights reserved &copy;   2019-2020</address>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../res/js/profile.js"></script>
+        <script src="../../res/js/Height.js"></script>
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    </body>
+</html>
